@@ -110,7 +110,7 @@ class BeanClass<T> {
 			String msg = String.format(LOOKUP_ERROR, "Getter", name, fieldType.getName(), objType.getName());
 			throw new RuntimeException(msg, e);
 		}
-}
+	}
 
 	private static MethodHandle tryFindSetter(Lookup lookup, Class<?> objType, String name, Class<?> fieldType) {
 		try {
@@ -120,7 +120,7 @@ class BeanClass<T> {
 			String msg = String.format(LOOKUP_ERROR, "Setter", name, fieldType.getName(), objType.getName());
 			throw new RuntimeException(msg, e);
 		}
-}
+	}
 
 	private static Lookup privateLookup(Class<?> clazz) {
 		try {
