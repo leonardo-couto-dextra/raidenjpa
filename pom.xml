@@ -3,7 +3,7 @@
 
 	<groupId>org.raidenjpa</groupId>
 	<artifactId>raidenjpa</artifactId>
-	<version>1.0.1-rda</version>
+	<version>1.0.2-rda-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>raidenjpa</name>
@@ -20,7 +20,7 @@
     <connection>scm:git:ssh://git@github.com/leonardo-dextra/raidenjpa.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/leonardo-dextra/raidenjpa.git</developerConnection>
     <url>https://github.com/leonardo-dextra/raidenjpa</url>
-    <tag>raidenjpa-1.0.1-rda</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
