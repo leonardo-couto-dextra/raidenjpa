@@ -3,13 +3,13 @@
 
 	<groupId>org.raidenjpa</groupId>
 	<artifactId>raidenjpa-core</artifactId>
-	<version>1.0.6-rda</version>
+	<version>1.0.7-rda-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<parent>
 		<groupId>org.raidenjpa</groupId>
 		<artifactId>raidenjpa</artifactId>
-		<version>1.0.6-rda</version>
+		<version>1.0.7-rda-SNAPSHOT</version>
 	</parent>
 
 	<name>raidenjpa-core</name>
